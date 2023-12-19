@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palate Poetry</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- main page -->
+    <section id="mainPage">
+        <h4>Welcome to Plate Poetry</h4> <p> your recipe solution! Simplify your daily cooking routine with our curated recipes. From easy-to-follow instructions to a list of ingredients, we've got your meals covered. Say goodbye to kitchen stress and hello to delicious simplicity. Explore now! <br> Made by- Chinmayee</p>
+        <img id="mainPageImg" src="./assets/mainpage img.jpg" alt="">
+        <a href="#dishes-section"><button id="exploreButton">Explore</button></a>
+    
+        <!-- search box -->
+        <input type="text" id="search" placeholder="Search">
+
+        <!-- logo -->
+        <img id="logo" src="./assets/logo.png" alt="">
+    </section>
+            
+    <section id="dishes-section">
+
+        <!-- Discription of the website and random meal-->
+        <h2>Popular</h2>
+        <div id="middlContent">
+            <img class="randomMeal" src="./assets/background img.jpg">
+            <h1 id="randomHeading">Pasta<br>Italian<br>Italy</h1>
+            <button id="ingredients">Ingredients</button>
+            <div id="modal">
+                <img id="closeBtn" width="40px" src="./assets/cross.png">
+                <div id="modal-content">
+
+                </div>     
+            </div>
+        </div>
+        <h5>Searched Results</h5>
+        <div id="searchedCategory">
+            
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
